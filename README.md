@@ -38,4 +38,4 @@ This is a simple application where users can log in and post messages and see th
 ## Contact
 
 - GitHub [@XKY-621](https://github.com/XKY-621)
-- LinkedIn [@your-twitter](https://linkedin.com/in/lfolly)
+- LinkedIn [@lfolly](https://linkedin.com/in/lfolly)
