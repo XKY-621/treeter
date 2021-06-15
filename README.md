@@ -1,29 +1,38 @@
-# Next.js + Tailwind CSS Example
+<!-- Please update value in the {}  -->
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<h1 align="center">Treeter</h1>
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+<div align="center">
+   A very simple version of twitter</a>.
+</div>
 
-## Preview
+<!-- TABLE OF CONTENTS -->
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Table of Contents
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- [Overview](#overview)
+  - [Built With](#built-with)
+- [Contact](#contact)
 
-## Deploy your own
+<!-- OVERVIEW -->
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Overview
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+![screenshot](https://user-images.githubusercontent.com/84773306/122046586-61f85d80-cddf-11eb-9106-d17cce27836e.png)
 
-## How to use
+This is a simple application where users can log in and post messages and see the messages posted by other users. One can react to a post by leaving a comment under it.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Built With
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- [React](https://reactjs.org/)
+- [Next.js](https://nextjs.org)
+- [tailwind CSS](https://tailwindcss.com)
+- [node.js](https://nodejs.org/en/)
+- [PostgreSQL](https://www.postgresql.org)
+
+## Contact
+
+- GitHub [@XKY-621](https://github.com/XKY-621)
+- LinkedIn [@your-twitter](https://linkedin.com/in/lfolly)

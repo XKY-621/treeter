@@ -1,82 +1,67 @@
-import Head from 'next/head'
+import Head from "next/head";
+import ListTreets from "./components/ListTreets";
+import InputTree from "./components/InputTreet";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div>
       <Head>
-        <title>Create Next App</title>
+        <title>Treeter</title>
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"
+        />
       </Head>
 
-      <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
-        <h1 className="text-6xl font-bold">
-          Welcome to{' '}
-          <a className="text-blue-600" href="https://nextjs.org">
-            Next.js!
-          </a>
-        </h1>
-
-        <p className="mt-3 text-2xl">
-          Get started by editing{' '}
-          <code className="p-3 font-mono text-lg bg-gray-100 rounded-md">
-            pages/index.js
-          </code>
-        </p>
-
-        <div className="flex flex-wrap items-center justify-around max-w-4xl mt-6 sm:w-full">
-          <a
-            href="https://nextjs.org/docs"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Documentation &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Find in-depth information about Next.js features and API.
-            </p>
-          </a>
-
-          <a
-            href="https://nextjs.org/learn"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Learn &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Learn about Next.js in an interactive course with quizzes!
-            </p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Examples &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Discover and deploy boilerplate example Next.js projects.
-            </p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+      <main className="bg-gray-100">
+        <div className="flex flex-row justify-center items-center p-3 bg-white">
+          <div className="flex-none">
+            <i className="fa fa-tree text-green-800"></i>
+            <span className="m-3 text-xl">Treeter</span>
+          </div>
+          <div className="m-3 w-150 flex flex-row justify-center">
+            <div className="rounded-md bg-green-100 text-green-800 py-1 px-2 mx-3 cursor-pointer">
+              Home
+            </div>
+            <div className="transition duration-300 ease-in-out mx-3 py-1 px-2 hover:bg-gray-100 rounded-md cursor-pointer">
+              Explore
+            </div>
+            <div className="transition duration-300 ease-in-out mx-3 py-1 px-2 hover:bg-gray-100 rounded-md cursor-pointer">
+              Latest
+            </div>
+          </div>
+          <div className="flex-none">
+            <i className="fa fa-chevron-down m-2"></i>
+            <span>Orla McNeil</span>
+          </div>
+        </div>
+        <div className="flex flex-row h-screen justify-center">
+          <div className="bg-gray-100 w-60 ">
+            <div className="bg-white shadow-sm h-40 w-50 m-4 rounded-md p-3">
+              <div className="flex flex-col justify-between text-gray-500 h-full">
+                <div className="text-gray-900 border-l-2 border-green-700 pl-2 font-bold">
+                  top
+                </div>
+                <div>Latest</div>
+                <div>people</div>
+                <div>media</div>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gray-100 w-150 flex-none">
+            <InputTree></InputTree>
+            <ListTreets></ListTreets>
+          </div>
+          <div className="bg-gray-100 w-60">
+            <div className="bg-white shadow-sm h-120 w-50 m-4 rounded-md p-3">
+              <div className="flex flex-col justify-between text-gray-500 h-full"></div>
+            </div>
+          </div>
         </div>
       </main>
 
-      <footer className="flex items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+      <footer className=""></footer>
     </div>
-  )
+  );
 }

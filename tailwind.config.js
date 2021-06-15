@@ -1,12 +1,21 @@
 module.exports = {
-  mode: 'jit',
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+  mode: "jit",
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      spacing: {
+        120: "30rem",
+        150: "40rem",
+      },
+    },
   },
   variants: {
     extend: {},
   },
   plugins: [],
-}
+  "tailwindCSS.includeLanguages": {
+    javascript: "javascript",
+    html: "HTML",
+  },
+};
