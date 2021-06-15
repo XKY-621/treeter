@@ -18,7 +18,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/84773306/122046586-61f85d80-cddf-11eb-9106-d17cce27836e.png)
+![screenshot](https://user-images.githubusercontent.com/84773306/122058568-08e2f680-cdec-11eb-9ffc-c1bf2d3f0742.png)
 
 This is a simple application where users can log in and post messages and see the messages posted by other users. One can react to a post by leaving a comment under it.
 
